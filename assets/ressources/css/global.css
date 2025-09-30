@@ -8033,34 +8033,39 @@ footer
 }
 
 .button1 {
-	font-size: 12px;
-    font-weight: 500;
-    word-spacing: 2px;
-	letter-spacing: 2px;
-	-webkit-word-spacing:50px;
-    -moz-letter-spacing:1;
-    -moz-word-spacing:50px;
-    -webkit-letter-spacing:1;
-    text-transform: uppercase;
-    padding: 10px 7px 10px 0px;
-    text-align: center;
-    min-width: 140px;
-    border-radius: 0;
-    margin-bottom: 4px;
-    text-indent: 12px;
-    width: auto !important;
-    background-color: transparent;
-    transition: all 0.3s ease;
-    border: 3px solid #B02917;
-    color: #fff;
-    display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  -webkit-word-spacing: 50px;
+  -moz-letter-spacing: 1;
+  -moz-word-spacing: 50px;
+  -webkit-letter-spacing: 1;
+  text-transform: uppercase;
+  padding: 10px 7px 10px 0px;
+  text-align: center;
+  min-width: 140px;
+  border-radius: 0;
+  margin-bottom: 4px;
+  text-indent: 12px;
+  width: auto !important;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border: 3px solid #B02917;
+  color: #fff;
+  display: inline-block;
 }
 
 .button1:hover {
 	border-width: 10px;
-    padding: 9px 6px 9px 6px;
-    color: #fff;
+    /* padding: 9px 6px 9px 6px; */
 }
+
+.button10:hover {
+  background-color: transparent !important;
+}
+
+
 
 .button {
 	font-style: normal;
@@ -8427,6 +8432,12 @@ footer h3 {
 		padding:0px;
 		float: left;
 	}
+
+  /* .button10{
+    background-color: transparents;
+    color: #fff;
+    border: 5px solid #B02917;
+  } */
 	section h2
 	{
 		font-size: 30px;
@@ -8511,6 +8522,7 @@ footer h3 {
 
 .logo1{
 	box-shadow:5px 5px 5px 0px black;
+  margin: 10px 0 !important;
 }
 
 ul, ol {
@@ -8550,38 +8562,4 @@ ul, ol {
   color: #fff !important;
   font-size: 22px !important;
   cursor: pointer;
-}
-
-.button1 {
-  font-weight: 500;
-  font-size: 12px;
-  font-family: Montserrat, sans-serif;
-  color: #1e1d24;
-  background-color: #fff;
-  line-height: 2;
-  display: inline-block;
-  max-width: 100%;
-  padding: 10px 30px;
-  cursor: pointer;
-  text-align: center;
-  overflow: hidden;
-  vertical-align: top;
-  white-space: nowrap;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  border-radius: 2px;
-  border-width: 0;
-  border-style: solid;
-  letter-spacing: .04em;
-  -webkit-transition: .3s ease-out;
-  -o-transition: .3s ease-out;
-  transition: .3s ease-out;
-  text-transform: uppercase
-}
-
-.button:hover {
-  color: #fff;
-  background-color: #B02917;
-  box-shadow: none;
-  text-decoration: none
 }
