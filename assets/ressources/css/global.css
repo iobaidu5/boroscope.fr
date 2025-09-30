@@ -3054,6 +3054,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	.navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nav .open .dropdown-menu>li>a:hover {
 		background-image: none
 	}
+
+  .logo1 img{
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 
 @media (min-width:768px) {
@@ -8417,7 +8422,6 @@ footer h3 {
 
   .logo1 img{
     width: 100% !important;
-    height: auto !important;
   }
 }
 
