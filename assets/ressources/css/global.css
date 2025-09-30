@@ -1492,7 +1492,7 @@ table td[class*=col-], table th[class*=col-] {
 	background-color: #ebcccc
 }
 
-@media (max-width:767px) {
+@media (max-width:990px) {
 	.table-responsive {
 		width: 100%;
 		margin-bottom: 15px;
@@ -2885,7 +2885,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:990px) {
 	.navbar-header {
 		float: left
 	}
@@ -2905,7 +2905,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	overflow-y: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:990px) {
 	.navbar-collapse {
 		width: auto;
 		border-top: 0;
@@ -3019,7 +3019,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	margin-top: 4px
 }
 
-@media (min-width:768px) {
+@media (min-width:990px) {
 	.navbar-toggle {
 		display: none
 	}
@@ -8405,9 +8405,18 @@ footer h3 {
 	nav a {
 		font-size: 12px;
 	}
+
+  .logo1{
+    margin: 10px 0 !important;
+  }
+
+  .logo1 img{
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 990px) {
 	/* nav
 	{
 		padding-top: 0px;
@@ -8502,4 +8511,77 @@ footer h3 {
 
 .logo1{
 	box-shadow:5px 5px 5px 0px black;
+}
+
+ul, ol {
+  padding-left: 23px !important;
+}
+
+.up{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  color: #fff !important;
+  background-color: #B02917;
+  display: inline-block;
+  max-width: 100%;
+  padding: 3px 13px;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  letter-spacing: .04em;
+  -webkit-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  transition: .3s ease-out;
+  text-transform: uppercase;
+  border-color: #93b5b4
+}
+
+.up a{
+  color: #fff !important;
+  font-size: 22px !important;
+  cursor: pointer;
+}
+
+.button1 {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: Montserrat, sans-serif;
+  color: #1e1d24;
+  background-color: #fff;
+  line-height: 2;
+  display: inline-block;
+  max-width: 100%;
+  padding: 10px 30px;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  border-radius: 2px;
+  border-width: 0;
+  border-style: solid;
+  letter-spacing: .04em;
+  -webkit-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  transition: .3s ease-out;
+  text-transform: uppercase
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #B02917;
+  box-shadow: none;
+  text-decoration: none
 }
